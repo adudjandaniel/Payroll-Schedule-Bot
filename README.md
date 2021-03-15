@@ -29,4 +29,4 @@ APPLICATION.serviceUrl = "https://smba.trafficmanager.net/amer/";
 APPLICATION.sitePath = "<file-path-to-root-of-app>";
 ```
 
-**NB:** Confirm that the service url, in request body from teams / botframework is same as the service url below. If they're not equal, update that in the application scope.
+**NB:** Confirm that the *service url*, in request body from teams / botframework is same as the service url below. If they're not equal, update that in the application scope.
