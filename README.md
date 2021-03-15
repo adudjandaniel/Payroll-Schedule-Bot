@@ -14,3 +14,19 @@ After running a script (to be a schedule job), a message is sent to teams.
 <img src="./assets/payroll-schedule-bot.gif" alt="Walk-through">
 
 ## Setup
+
+You'll need to create Application.cfc with the following in the application scope.
+
+```
+APPLICATION.tenantID = "<your-active-directory-tenant-id>";
+APPLICATION.clientID = "<app-registration-app-id>";
+APPLICATION.clientSecret = "<app-registration-app-secret";
+APPLICATION.botId = "<>";
+APPLICATION.botName = "<>";
+APPLICATION.botToken = "";
+APPLICATION.tokenCreatedAt = "";
+APPLICATION.serviceUrl = "https://smba.trafficmanager.net/amer/";
+APPLICATION.sitePath = "<file-path-to-root-of-app>";
+```
+
+**NB:** Confirm that the service url, in request body from teams / botframework is same as the service url below. If they're not equal, update that in the application scope.
