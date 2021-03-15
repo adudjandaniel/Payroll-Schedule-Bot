@@ -22,9 +22,9 @@ APPLICATION.tenantID = "<your-active-directory-tenant-id>";
 APPLICATION.clientID = "<app-registration-app-id>";
 APPLICATION.clientSecret = "<app-registration-app-secret";
 APPLICATION.botId = "<>";
-APPLICATION.botName = "<>";
+APPLICATION.botName = "<name-in-bot-manifest>";
 APPLICATION.botToken = "";
-APPLICATION.tokenCreatedAt = "";
+APPLICATION.tokenCreatedAt = 0;
 APPLICATION.serviceUrl = "https://smba.trafficmanager.net/amer/";
 APPLICATION.sitePath = "<file-path-to-root-of-app>";
 ```
