@@ -29,7 +29,6 @@
 
 <!--- Send out message --->
 <cfloop collection="#APPLICATION.users#" item="user">
-    <cfdump var="#APPLICATION.users[user]#" label="#user#">
     <cfset bot.SetUser(
         userId = APPLICATION.users[user].user_id, 
         conversationId = APPLICATION.users[user].conversation_id
