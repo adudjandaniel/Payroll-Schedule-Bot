@@ -21,7 +21,7 @@ You'll need to create Application.cfc with the following in the application scop
 APPLICATION.tenantID = "<your-active-directory-tenant-id>";
 APPLICATION.clientID = "<app-registration-app-id>";
 APPLICATION.clientSecret = "<app-registration-app-secret";
-APPLICATION.botId = "<>";
+APPLICATION.botId = "28:<app-id>";
 APPLICATION.botName = "<name-in-bot-manifest>";
 APPLICATION.botToken = "";
 APPLICATION.tokenCreatedAt = 0;
